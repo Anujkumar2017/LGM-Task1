@@ -1,0 +1,410 @@
+*{
+    margin: 0; 
+}
+
+@font-face { font-family: kentledge; font-weight: heavy; src: url('kentledge_font/Kentledge-Heavy.otf'); } 
+
+#slideshow_container{
+    background-image: url('Image/leaf.jpg');
+    background-size: cover;
+    height: 600px;
+    color:white;
+    overflow: hidden;
+    transition: background-image .6s ease;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-family: kentledge;
+    border: none;
+}
+
+.btn_yellow {
+    background-color: #dcdc3d; 
+}
+
+.btn_blue {
+    background-color: #992cff;  
+    color:white;
+}
+
+.btn_blue:hover{
+    background-color: #dcdc3d;
+    color: #424242; 
+}
+
+.btn_yellow:hover{
+    background-color: #992cff;  
+    color:white;
+}
+
+#slideshow_container h1{
+    font-family: kentledge;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #424242;
+}
+
+#navbar {
+    margin: 12px 0px 80px;
+    font-family: kentledge;
+}
+
+#navbar a {
+    color: white;
+    display: inline;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color:rgb(243, 214, 86);
+}
+
+                                          /*style for home secton*/
+#home{
+    height:625px;
+    margin: 20px 280px;
+    text-align: center;
+}
+
+#imgumbrella{
+    float: right;
+    height: 180px;
+}
+
+.cardsHome{
+    width: 217px;
+    text-align: center;
+    float:left;
+}
+
+.cardsHome h3{
+    font-size: 17px; 
+    font-family: kentledge;
+    color: #7698b7;
+    margin:10px;
+}
+
+.cardsHome img{
+    height: 60px;
+}
+.cardsHome p{
+    margin: 10px;
+    color:#937a7a;
+}
+hr{
+    width: 59%;
+    background-color: #dbdbdb;
+    margin: auto;
+    height: 4px;
+    border: 0px;
+}
+
+                                              /* Style in projects section */
+                                               
+#projects h1{
+    font-size:50px; font-family:'kentledge';
+    margin:20px 600px 30px;
+}
+
+#container{
+    height: 550px;
+    margin: 12px 0px;
+}
+
+.box{
+    height:550px;
+    width:336px;
+    background-color: rgb(229 229 229);
+    float:left;
+}
+
+.box:hover{
+    background:yellow;
+}
+
+.innerbox button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    font-family: kentledge;
+}
+
+.innerbox button:hover{
+    background-color: #8607ff;
+    color: whitesmoke;
+}
+
+.innerbox{
+    height: 130px; 
+    width:296px; 
+    margin-top:-4px ;
+    padding:20px;
+}
+
+.anotherColor{
+    background-color: #cac6c6;
+}
+                                    /*style in pricing section*/
+
+#pricing{
+    text-align: center;
+    overflow: hidden;
+    margin: 30px 290px;
+    font-family: kentledge;
+}
+
+#pricing h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+}
+
+#pricing_inner{
+    height: 200px;
+}
+
+.pricing_box{
+    width: 253px;
+    height: 200px;
+    float:left;
+}
+
+.pricing_box p{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.divider{
+    height: 200px;
+    float:left;
+    border-right: 4px solid rgb(236 232 232);
+}
+                                                /* style for video section */
+
+#video_projects{
+    height: 350px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #8607ff;
+    margin: 30px 0px;
+}
+
+#video_projects h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+    color:white;
+}
+
+iframe{
+    margin: 8px;
+    width: 318px;
+    height: 200px;
+}
+
+                                                   /* style for team section */
+
+#team{
+    height: 600px;
+    margin: 10px 280px;
+}
+
+#team h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+
+.item-list{
+    height: 508px;
+    width: 394px;
+    float: left;
+}
+
+.item{
+    text-align: center;
+    height:254px;
+}
+
+.item img{
+    height: 160px;
+    width: 200px;
+    margin-bottom:20px ;
+}
+
+h4.item-name{
+    font-size: larger;
+}
+
+h5.item-job{
+    font-size: medium;
+    margin-top: 3px;
+    font-weight: 600;
+    color: #a1a1a1;
+}
+
+                                     /* style for news letter signup section */
+
+#signup{
+    height: 240px;
+    margin: 20px 0px;
+    background-image: url(Image/butterfly.jpg); 
+    text-align: center;
+    background-size: cover;
+}
+
+#signup h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+    color:white
+}
+
+#signup input{
+    padding: 10px 26px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 3px 0px 0px 3px;
+}
+.extra{
+    border-radius: 0px 3px 3px 0px;
+}   
+
+                               /* style for news Blogs section */
+
+
+#blogs{
+    height: 550px;
+    /* background-color: #017ef3; */
+    margin: 10px 280px;
+}
+
+
+#blogs h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+    text-align: center;
+}
+
+#outerdiv{
+    height: 450px;
+    /* background-color: turquoise; */
+}
+
+.blogs-item{
+    width: 263px;
+    float: left;
+    height: inherit;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.blogs-item img{
+    height: 150px;
+    width: 225px;
+}
+.blogs-item h3{
+     font-family:'kentledge';
+}
+
+.blogs-item h2{    
+    color: #a1a1a1;
+    font-size: larger;
+    margin: 10px 0px;
+}
+
+.blogs-item p {
+    margin: 20px 10px;
+}
+
+                                /* style for news Blogs section */
+
+#contact{
+    height: 600px;
+    background-color:rgb(255, 217, 45);
+    margin: 10px 0px;
+}
+
+
+.contact-list{
+    height: inherit;
+    width: 674px;
+    /* background-color: red; */
+    float: left;
+}
+
+.contact-list iframe{
+    margin: 0px;
+    width: inherit;
+    height: inherit;
+}
+.contact-list h1{
+    font-size:50px; font-family:'kentledge';
+    margin: 10px 0px 20px;
+}
+.contact-list p{
+    margin: 10px 0px 5px;
+    font-family:'kentledge';
+}
+
+.contact-list input{
+    padding: 10px 60px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.contact-list textarea{
+    width: 289px;
+    border: none;
+    border-radius: 3px;
+    height: 127px;
+    outline: none;
+}
+
+#submit{
+    cursor: pointer;
+    padding: 10px 123px;
+    border-radius: 3px;
+    border: none;
+    background-color: #992cff; 
+    font-family: kentledge; 
+    color:white;
+}
+                                /* style for news Blogs section */
+
+#footer{
+    margin: 40px 190px;
+    height: 120px;
+    /* background-color: #937a7a; */
+}
+
+.footer-item{
+    height: inherit;
+    width: 220px;
+    /* background: #992cff; */
+    margin: 0px 50px;
+    float: left;
+    text-align: center;
+}
+.footer-item h5{
+    font-family: kentledge; 
+    margin: 10px;
+}
