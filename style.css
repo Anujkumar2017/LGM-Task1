@@ -267,7 +267,7 @@ h5.item-job{
 #signup{
     height: 240px;
     margin: 20px 0px;
-    background-image: url(Image/butterfly.jpg); 
+    background-image: url(image/butterfly.jpg); 
     text-align: center;
     background-size: cover;
 }
@@ -335,7 +335,7 @@ h5.item-job{
     margin: 20px 10px;
 }
 
-                                /* style for news Blogs section */
+                                /* style for contact section */
 
 #contact{
     height: 600px;
@@ -388,7 +388,7 @@ h5.item-job{
     font-family: kentledge; 
     color:white;
 }
-                                /* style for news Blogs section */
+                                /* style for footer section */
 
 #footer{
     margin: 40px 190px;
